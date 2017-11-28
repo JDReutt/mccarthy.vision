@@ -1,2 +1,0 @@
-webpackJsonp([0x944864ddfd240000],{"./node_modules/json-loader/index.js!./.cache/json/tags-commercial.json":function(o,a){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/salon-ziba-black-white"},excerpt:"",timeToRead:1,frontmatter:{title:"Salon Ziba: Black & White",tags:["Portfolio","Commercial","Salon Ziba"],cover:"https://i.vimeocdn.com/video/663047185_1280x720.jpg?r=pad",date:"17/10/2017"}}}]}},pathContext:{tag:"Commercial"}}}});
-//# sourceMappingURL=path---tags-commercial-65023f132ef29f2ad512.js.map
