@@ -40,5 +40,5 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2017. Brendan McCarthy" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2018. Brendan McCarthy" // Copyright string for the footer of the website and RSS feed.
 };
