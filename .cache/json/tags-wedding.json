@@ -1,0 +1,31 @@
+{
+    "data": {
+        "allMarkdownRemark": {
+            "totalCount": 1,
+            "edges": [
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/wedding-reel"
+                        },
+                        "excerpt": "",
+                        "timeToRead": 1,
+                        "frontmatter": {
+                            "title": "Wedding Reel",
+                            "tags": [
+                                "portfolio",
+                                "wedding",
+                                "reel"
+                            ],
+                            "cover": "https://i.vimeocdn.com/video/624710753_960x540.jpg?r=pad",
+                            "date": "24/11/2017"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {
+        "tag": "wedding"
+    }
+}

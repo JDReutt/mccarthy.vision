@@ -1,0 +1,50 @@
+{
+    "data": {
+        "allMarkdownRemark": {
+            "totalCount": 2,
+            "edges": [
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/wedding-reel"
+                        },
+                        "excerpt": "",
+                        "timeToRead": 1,
+                        "frontmatter": {
+                            "title": "Wedding Reel",
+                            "tags": [
+                                "portfolio",
+                                "wedding",
+                                "reel"
+                            ],
+                            "cover": "https://i.vimeocdn.com/video/624710753_960x540.jpg?r=pad",
+                            "date": "24/11/2017"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/video-reel-2017"
+                        },
+                        "excerpt": "",
+                        "timeToRead": 1,
+                        "frontmatter": {
+                            "title": "Video Reel 2017",
+                            "tags": [
+                                "portfolio",
+                                "work",
+                                "reel"
+                            ],
+                            "cover": "https://i.vimeocdn.com/video/624709565_1280x720.jpg?r=pad",
+                            "date": "12/03/2017"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {
+        "tag": "reel"
+    }
+}

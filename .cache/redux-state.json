@@ -1,0 +1,2723 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin component-page-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2843a8df2c4f458bc68123a043aece9d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin component-layout-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e625b7092e67bb0ee6cc42d2e15d4ab5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin internal-data-bridge",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8485bf3c0efd7831fb46190a203cc24b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin dev-404-page",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "257721d0153b21fef7a9808247223470",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin prod-404",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4ed2c0d3b9e9002bc70c448788c40ca0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin query-runner",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8edb873125937bcbb322985ff0cba1fb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "59bc9ca2eca1053676a9fb567ebacfc4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-sass",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e6f58a326dc10fda24a18f2bb6f2d8b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.4.2",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/home/juice/javascript/mccarthy.vision/content/sample-posts"
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.4.2",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-source-filesystem",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2dc14d12d2f72b56b961d89e467fa0b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.0",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.3",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1200,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "pathPrefix": ""
+            },
+            "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.2",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": ""
+            },
+            "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.0",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.1",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-autolink-headers",
+            "name": "gatsby-remark-autolink-headers",
+            "version": "1.4.3",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-autolink-headers"
+          }
+        ]
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.0",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-transformer-remark",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0aa4795c72709c17f6e0d08a3374e49d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.3",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1200,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "pathPrefix": ""
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-images",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b0a671f860942812cb66925be73ac303",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.2",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": ""
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b91e437d64effd4f6cc0d150ef6025ab",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.6.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-prismjs",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7cb5fd5c30cd5e15178491d65ae96abc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "19460d3e3d9a341af1a458da94ceb6fb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-autolink-headers": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-autolink-headers",
+      "name": "gatsby-remark-autolink-headers",
+      "version": "1.4.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-remark-autolink-headers",
+      "packageJson": {
+        "name": "gatsby-remark-autolink-headers",
+        "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
+        "version": "1.4.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "github-slugger",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-autolink-headers",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85593eb919de6d38efc88a765e991b5b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-97415716-1"
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "dependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4cfcb319412b05d99c6ee8288e2718c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.2",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#c62828"
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-nprogress",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "681b472a6d3cee1ae107da00b6ab51b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-sharp",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1da57445dbddaa523dc663b3343798ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "dependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-catch-links",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0905751a3c2456522ac8642fb775b365",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-twitter": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-twitter",
+      "name": "gatsby-plugin-twitter",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-twitter",
+      "packageJson": {
+        "name": "gatsby-plugin-twitter",
+        "description": "Stub description for gatsby-plugin-twitter",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "dependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-twitter",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1773fa4e1778489615b3e2c0bc17dfd3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-offline",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db0c8ecc37ce89d3073aee2daf1c9ea2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-feed": {
+      "resolve": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-feed",
+      "name": "gatsby-plugin-feed",
+      "version": "1.3.4",
+      "pluginOptions": {
+        "plugins": [],
+        "query": "\n        {\n          site {\n            siteMetadata {\n              rssMetadata {\n                site_url\n                feed_url\n                title\n                description\n                image_url\n                author\n                copyright\n              }\n            }\n          }\n        }\n      ",
+        "feeds": [
+          {
+            "query": "\n            {\n              allMarkdownRemark(\n                limit: 1000,\n                sort: { order: DESC, fields: [frontmatter___date] },\n              ) {\n                edges {\n                  node {\n                    excerpt\n                    html\n                    timeToRead\n                    fields { slug }\n                    frontmatter {\n                      title\n                      cover\n                      date\n                      category\n                      tags\n                    }\n                  }\n                }\n              }\n            }\n          ",
+            "output": "/rss.xml"
+          }
+        ]
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "1.3.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "rss",
+          "atom",
+          "feed"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-feed",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "520d4caddca5395bcc4c59f9ca665f57",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/juice/javascript/mccarthy.vision",
+      "name": "default-site-plugin",
+      "version": "91d21e765fc45e106cf83542c88a7e95",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/home/juice/javascript/mccarthy.vision",
+      "packageJson": {
+        "name": "mccarthy.vision",
+        "description": "Personal Site of Brendan McCarthy.",
+        "version": "1.2.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Joseph Reutt<joe@reuttaccess.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-lodash",
+            "version": "^3.2.11"
+          },
+          {
+            "name": "font-awesome",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.8.11"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.7"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^1.3.4"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.1"
+          },
+          {
+            "name": "gatsby-plugin-twitter",
+            "version": "^1.0.6"
+          },
+          {
+            "name": "gatsby-remark-autolink-headers",
+            "version": "^1.4.3"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.3"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.2"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.4.2"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "lodash-webpack-plugin",
+            "version": "^0.11.4"
+          },
+          {
+            "name": "react",
+            "version": "^15.6.1"
+          },
+          {
+            "name": "react-disqus-comments",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^15.6.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "react-md",
+            "version": "^1.1.0-alpha-5"
+          },
+          {
+            "name": "react-share",
+            "version": "^1.15.1"
+          },
+          {
+            "name": "react-twitter-widgets",
+            "version": "^1.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cli-glob",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^3.19.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^15.0.2"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.3.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^5.1.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.5.3"
+          },
+          {
+            "name": "remark-cli",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-preset-lint-recommended",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "stylefmt",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "stylelint",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "stylelint-config-standard",
+            "version": "^17.0.0"
+          },
+          {
+            "name": "write-good",
+            "version": "^0.11.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin default-site-plugin",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4e3e2ed0035d945acd6e457304b61e6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "mccarthy.vision",
+        "rssMetadata": {
+          "site_url": "mccarthy.vision",
+          "feed_url": "mccarthy.vision/rss.xml",
+          "title": "McCarthy Vision",
+          "description": "The Portfolio of Brendan McCarthy.",
+          "image_url": "mccarthy.vision/logos/logo-512.png",
+          "author": "Brendan",
+          "copyright": "Copyright © 2017. Brendan McCarthy"
+        }
+      },
+      "pathPrefix": "",
+      "buildTime": "2018-02-11T16:54:59.876Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "55aa937719cadef67c6c53fc00869a03",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e5b2b67c300c049a1c4fe95e659b87fa",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md",
+      "relativePath": "01-09-2017/index.md",
+      "extension": "md",
+      "size": 370,
+      "prettySize": "370 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783136,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d262d630894ac8aad2682d388581ed6d",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md",
+      "relativePath": "12-07-2017/index.md",
+      "extension": "md",
+      "size": 523,
+      "prettySize": "523 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783140,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e83ee7c688342abca0372e286d72b0ff",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md",
+      "relativePath": "12-03-2017/index.md",
+      "extension": "md",
+      "size": 342,
+      "prettySize": "342 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783138,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7348cde09a37380780aeeeb60635a56e",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md",
+      "relativePath": "15-08-2017/index.md",
+      "extension": "md",
+      "size": 350,
+      "prettySize": "350 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783142,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ee1b99ce2b8cbeebf4b364b0f9c153e3",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md",
+      "relativePath": "15-09-2017/index.md",
+      "extension": "md",
+      "size": 343,
+      "prettySize": "343 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783144,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ee8e45e7866ca197fb321ea96be29e86",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md",
+      "relativePath": "17-03-2017/index.md",
+      "extension": "md",
+      "size": 341,
+      "prettySize": "341 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3168331,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f69e777c6bb6406f9d3b6ed5074c825f",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md",
+      "relativePath": "17-10-2017/index.md",
+      "extension": "md",
+      "size": 375,
+      "prettySize": "375 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3301351,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "99b2495017f07b77be37af859b249d9c",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md",
+      "relativePath": "17-08-2017/index.md",
+      "extension": "md",
+      "size": 380,
+      "prettySize": "380 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3301333,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bd94ae6d948fdad0cf2ee730fe8fa95e",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md",
+      "relativePath": "16-11-2017/index.md",
+      "extension": "md",
+      "size": 366,
+      "prettySize": "366 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2783146,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file",
+      "children": [
+        "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3248f1d3268118b67bb0bb66faf87bfc",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md",
+      "relativePath": "21-06-2017/index.md",
+      "extension": "md",
+      "size": 350,
+      "prettySize": "350 B",
+      "modifiedTime": "2018-02-11T15:36:26.955Z",
+      "accessTime": "2018-02-11T15:39:13.183Z",
+      "changeTime": "2018-02-11T15:36:26.955Z",
+      "birthTime": "2018-02-11T15:36:26.955Z",
+      "root": "/",
+      "dir": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3428209,
+      "blocks": 8,
+      "atimeMs": 1518363553182.9849,
+      "mtimeMs": 1518363386954.6797,
+      "ctimeMs": 1518363386954.6797,
+      "birthtimeMs": 1518363386954.6797,
+      "atime": "2018-02-11T15:39:13.183Z",
+      "mtime": "2018-02-11T15:36:26.955Z",
+      "ctime": "2018-02-11T15:36:26.955Z",
+      "birthtime": "2018-02-11T15:36:26.955Z"
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Elite Meet San Francisco- Giving Back\"\ncover: \"https://i.vimeocdn.com/video/653006481_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"01-09-2017\"\ntags:\n    - portfolio\n    - work\n    - elite meet\n---\n<iframe src=\"https://player.vimeo.com/video/232044990\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "e4709ec2379134569aa154933f61821e",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Elite Meet San Francisco- Giving Back",
+        "cover": "https://i.vimeocdn.com/video/653006481_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "01-09-2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "elite meet"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md",
+      "fields": {
+        "slug": "/elite-meet-san-francisco-giving-back",
+        "nextTitle": "Elite Meet Rundown",
+        "nextSlug": "/elite-meet-rundown",
+        "prevTitle": "Cyrano Quickstart",
+        "prevSlug": "/cyrano-quickstart"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Elite Meet Rundown\"\ncover: \"https://i.vimeocdn.com/video/644605393_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"27/11/2017\"\ntags:\n    - portfolio\n    - work\n    - elite meet\n---\n<iframe src=\"https://player.vimeo.com/video/225323282\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\nElite Meet connects transitioning Special Operations Forces (SOF) with the business community for guidance, internships, and jobs. <a href=\"elitemeet.us\">elitemeet.us</a>",
+        "contentDigest": "f7446d4bef0d4ffb6e22230827008325",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Elite Meet Rundown",
+        "cover": "https://i.vimeocdn.com/video/644605393_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "27/11/2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "elite meet"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md",
+      "fields": {
+        "slug": "/elite-meet-rundown",
+        "nextTitle": "Video Reel 2017",
+        "nextSlug": "/video-reel-2017",
+        "prevTitle": "Cyrano Quickstart",
+        "prevSlug": "/cyrano-quickstart"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Video Reel 2017\"\ncover: \"https://i.vimeocdn.com/video/624709565_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"12/03/2017\"\ntags:\n    - portfolio\n    - work\n    - reel\n---\n<iframe src=\"https://player.vimeo.com/video/208032400\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "396ae15da679f0b26c63481c7161c7b3",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Video Reel 2017",
+        "cover": "https://i.vimeocdn.com/video/624709565_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "12/03/2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "reel"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md",
+      "fields": {
+        "slug": "/video-reel-2017",
+        "nextTitle": "Elite Meet Boston",
+        "nextSlug": "/elite-meet-boston",
+        "prevTitle": "Elite Meet Rundown",
+        "prevSlug": "/elite-meet-rundown"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Elite Meet Boston\"\ncover: \"https://i.vimeocdn.com/video/650175445_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"15-08-2017\"\ntags:\n    - portfolio\n    - work\n    - elite meet\n---\n<iframe src=\"https://player.vimeo.com/video/229776877\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "9843b2cd89e3013d643a3e4512e69563",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Elite Meet Boston",
+        "cover": "https://i.vimeocdn.com/video/650175445_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "15-08-2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "elite meet"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md",
+      "fields": {
+        "slug": "/elite-meet-boston",
+        "nextTitle": "LunaCap Veterans Pitch 2017",
+        "nextSlug": "/luna-cap-veterans-pitch-2017",
+        "prevTitle": "Video Reel 2017",
+        "prevSlug": "/video-reel-2017"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"LunaCap Veterans Pitch 2017\"\ncover: \"https://i.vimeocdn.com/video/655553226_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"15-09-2017\"\ntags:\n    - portfolio\n    - work\n---\n<iframe src=\"https://player.vimeo.com/video/234064015\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "5c584f085a956420152f45b07275a157",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "LunaCap Veterans Pitch 2017",
+        "cover": "https://i.vimeocdn.com/video/655553226_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "15-09-2017",
+        "tags": [
+          "portfolio",
+          "work"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md",
+      "fields": {
+        "slug": "/luna-cap-veterans-pitch-2017",
+        "nextTitle": "Wedding Reel",
+        "nextSlug": "/wedding-reel",
+        "prevTitle": "Elite Meet Boston",
+        "prevSlug": "/elite-meet-boston"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Wedding Reel\"\ncover: \"https://i.vimeocdn.com/video/624710753_960x540.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"24/11/2017\"\ntags:\n    - portfolio\n    - wedding\n    - reel\n---\n<iframe src=\"https://player.vimeo.com/video/208030371\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "e04e3943f7e597879950b28da303745a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Wedding Reel",
+        "cover": "https://i.vimeocdn.com/video/624710753_960x540.jpg?r=pad",
+        "category": "Work",
+        "date": "24/11/2017",
+        "tags": [
+          "portfolio",
+          "wedding",
+          "reel"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md",
+      "fields": {
+        "slug": "/wedding-reel",
+        "nextTitle": "Salon Ziba: Black & White",
+        "nextSlug": "/salon-ziba-black-white",
+        "prevTitle": "LunaCap Veterans Pitch 2017",
+        "prevSlug": "/luna-cap-veterans-pitch-2017"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Salon Ziba: Black & White\"\ncover: \"https://i.vimeocdn.com/video/663047185_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"17/10/2017\"\ntags:\n    - portfolio\n    - commercial\n    - work\n    - salon ziba\n---\n<iframe src=\"https://player.vimeo.com/video/238649375\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "ccd7ecb6d6661f0100cdd7b043426a4a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Salon Ziba: Black & White",
+        "cover": "https://i.vimeocdn.com/video/663047185_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "17/10/2017",
+        "tags": [
+          "portfolio",
+          "commercial",
+          "work",
+          "salon ziba"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md",
+      "fields": {
+        "slug": "/salon-ziba-black-white",
+        "nextTitle": "Rush Street Capital",
+        "nextSlug": "/rush-street-capital",
+        "prevTitle": "Wedding Reel",
+        "prevSlug": "/wedding-reel"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Rush Street Capital\"\ncover: \"https://i.vimeocdn.com/video/663047440_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"17-08-2017\"\ntags:\n    - portfolio\n    - work\n    - commercial\n---\n<iframe src=\"https://player.vimeo.com/video/230045697?title=0&byline=0&portrait=0\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "dda3d175f06f8ada3ca9eed95161cc7d",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Rush Street Capital",
+        "cover": "https://i.vimeocdn.com/video/663047440_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "17-08-2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "commercial"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md",
+      "fields": {
+        "slug": "/rush-street-capital",
+        "nextTitle": "Salon Ziba Color",
+        "nextSlug": "/salon-ziba-color",
+        "prevTitle": "Salon Ziba: Black & White",
+        "prevSlug": "/salon-ziba-black-white"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Salon Ziba Color\"\ncover: \"https://i.vimeocdn.com/video/668207028_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"16-11-2017\"\ntags:\n    - portfolio\n    - commercial\n    - work\n    - salon ziba\n---\n<iframe src=\"https://player.vimeo.com/video/243032607\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "a286589f9f91687c56bd51cab006c791",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Salon Ziba Color",
+        "cover": "https://i.vimeocdn.com/video/668207028_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "16-11-2017",
+        "tags": [
+          "portfolio",
+          "commercial",
+          "work",
+          "salon ziba"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md",
+      "fields": {
+        "slug": "/salon-ziba-color",
+        "nextTitle": "Cyrano Quickstart",
+        "nextSlug": "/cyrano-quickstart",
+        "prevTitle": "Rush Street Capital",
+        "prevSlug": "/rush-street-capital"
+      }
+    },
+    "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Cyrano Quickstart\"\ncover: \"https://i.vimeocdn.com/video/642926378_1280x720.jpg?r=pad\"\ncategory: \"Work\"\ndate: \"21-06-2017\"\ntags:\n    - portfolio\n    - work\n    - commercial\n---\n<iframe src=\"https://player.vimeo.com/video/222516066\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "contentDigest": "88c9da70caa36adb83c4034bf30ad2e3",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Cyrano Quickstart",
+        "cover": "https://i.vimeocdn.com/video/642926378_1280x720.jpg?r=pad",
+        "category": "Work",
+        "date": "21-06-2017",
+        "tags": [
+          "portfolio",
+          "work",
+          "commercial"
+        ],
+        "parent": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md",
+      "fields": {
+        "slug": "/cyrano-quickstart",
+        "nextTitle": "Elite Meet San Francisco- Giving Back",
+        "nextSlug": "/elite-meet-san-francisco-giving-back",
+        "prevTitle": "Salon Ziba Color",
+        "prevSlug": "/salon-ziba-color"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b36888914d710114d4fcff005d444383",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /elite-meet-san-francisco-giving-back": {
+      "path": "/elite-meet-san-francisco-giving-back",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/elite-meet-san-francisco-giving-back"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "elite-meet-san-francisco-giving-back.json",
+      "internalComponentName": "ComponentEliteMeetSanFranciscoGivingBack",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /elite-meet-san-francisco-giving-back",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e76080797af19b260ff8f823b3555e4e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /elite-meet-rundown": {
+      "path": "/elite-meet-rundown",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/elite-meet-rundown"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "elite-meet-rundown.json",
+      "internalComponentName": "ComponentEliteMeetRundown",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /elite-meet-rundown",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3e2709c9a6aef851d1d856eb1ea7b1b5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /video-reel-2017": {
+      "path": "/video-reel-2017",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/video-reel-2017"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "video-reel-2017.json",
+      "internalComponentName": "ComponentVideoReel2017",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /video-reel-2017",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2d0516cc6c25607d3319afb6600e996a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /elite-meet-boston": {
+      "path": "/elite-meet-boston",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/elite-meet-boston"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "elite-meet-boston.json",
+      "internalComponentName": "ComponentEliteMeetBoston",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /elite-meet-boston",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e64ec5e945d007cfb5755acba3b790a2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /luna-cap-veterans-pitch-2017": {
+      "path": "/luna-cap-veterans-pitch-2017",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/luna-cap-veterans-pitch-2017"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "luna-cap-veterans-pitch-2017.json",
+      "internalComponentName": "ComponentLunaCapVeteransPitch2017",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /luna-cap-veterans-pitch-2017",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "585d9719043086891354bf18f641d772",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /wedding-reel": {
+      "path": "/wedding-reel",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/wedding-reel"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "wedding-reel.json",
+      "internalComponentName": "ComponentWeddingReel",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /wedding-reel",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7a9571f36475cbc2faaad8b77000e8ff",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /salon-ziba-black-white": {
+      "path": "/salon-ziba-black-white",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/salon-ziba-black-white"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "salon-ziba-black-white.json",
+      "internalComponentName": "ComponentSalonZibaBlackWhite",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /salon-ziba-black-white",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f63f52e7610c814abd92d311fade1f0d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /rush-street-capital": {
+      "path": "/rush-street-capital",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/rush-street-capital"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "rush-street-capital.json",
+      "internalComponentName": "ComponentRushStreetCapital",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /rush-street-capital",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ae8cc40ca6173a5419be70731e272617",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /salon-ziba-color": {
+      "path": "/salon-ziba-color",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/salon-ziba-color"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "salon-ziba-color.json",
+      "internalComponentName": "ComponentSalonZibaColor",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /salon-ziba-color",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e5f59defbde65176e344b4af332b325b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cyrano-quickstart": {
+      "path": "/cyrano-quickstart",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "context": {
+        "slug": "/cyrano-quickstart"
+      },
+      "componentChunkName": "component---src-templates-post-jsx",
+      "layout": "index",
+      "jsonName": "cyrano-quickstart.json",
+      "internalComponentName": "ComponentCyranoQuickstart",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/post.jsx",
+      "id": "SitePage /cyrano-quickstart",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "43cd5a09e27fcf295d3d84267c6cb73b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/portfolio/": {
+      "path": "/tags/portfolio/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "portfolio"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-portfolio.json",
+      "internalComponentName": "ComponentTagsPortfolio",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/portfolio/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8d816bd6ded5e6d8ffe84ad4e2b8031a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/work/": {
+      "path": "/tags/work/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "work"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-work.json",
+      "internalComponentName": "ComponentTagsWork",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a749eb6309a55a8d70098f0985e575e1",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/elite-meet/": {
+      "path": "/tags/elite-meet/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "elite meet"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-elite-meet.json",
+      "internalComponentName": "ComponentTagsEliteMeet",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/elite-meet/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3e87d32c4ea1ac9cb233172c8fdeff39",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/reel/": {
+      "path": "/tags/reel/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "reel"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-reel.json",
+      "internalComponentName": "ComponentTagsReel",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/reel/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b3cd5c87c11c8fbb7311e8a9fa730221",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/wedding/": {
+      "path": "/tags/wedding/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "wedding"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-wedding.json",
+      "internalComponentName": "ComponentTagsWedding",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/wedding/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "28bb851762833434faa948d2dbaad54b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/commercial/": {
+      "path": "/tags/commercial/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "commercial"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-commercial.json",
+      "internalComponentName": "ComponentTagsCommercial",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/commercial/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0110902f27a0894925aad5506a9378e2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/salon-ziba/": {
+      "path": "/tags/salon-ziba/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "context": {
+        "tag": "salon ziba"
+      },
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "layout": "index",
+      "jsonName": "tags-salon-ziba.json",
+      "internalComponentName": "ComponentTagsSalonZiba",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/tag.jsx",
+      "id": "SitePage /tags/salon-ziba/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ce82bd5ec5a4a8c51caff043562e19a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /categories/work/": {
+      "path": "/categories/work/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/templates/category.jsx",
+      "context": {
+        "category": "Work"
+      },
+      "componentChunkName": "component---src-templates-category-jsx",
+      "layout": "index",
+      "jsonName": "categories-work.json",
+      "internalComponentName": "ComponentCategoriesWork",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/templates/category.jsx",
+      "id": "SitePage /categories/work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "38163cd54b2fffd45b897ddbc69a3b40",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/pages/about.jsx",
+      "componentChunkName": "component---src-pages-about-jsx",
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/pages/about.jsx",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c97ef86dcd1945e959bacc8e7613ad8f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/home/juice/javascript/mccarthy.vision/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "componentPath": "/home/juice/javascript/mccarthy.vision/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6e0acd683fecac0c780411a4b9a4b90e",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "a4ba69f9ac4a62948c5541755196d491"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/01-09-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/elite-meet-san-francisco-giving-back"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-07-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/elite-meet-rundown"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/12-03-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/video-reel-2017"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-08-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/elite-meet-boston"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/15-09-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/luna-cap-veterans-pitch-2017"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-03-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/wedding-reel"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-10-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/salon-ziba-black-white"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/17-08-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/rush-street-capital"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/16-11-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/salon-ziba-color"
+      ],
+      "/home/juice/javascript/mccarthy.vision/content/sample-posts/21-06-2017/index.md absPath of file >>> MarkdownRemark": [
+        "/cyrano-quickstart"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/tags/portfolio/",
+        "/tags/work/",
+        "/tags/elite-meet/",
+        "/tags/reel/",
+        "/tags/wedding/",
+        "/tags/commercial/",
+        "/tags/salon-ziba/",
+        "/categories/work/",
+        "/"
+      ]
+    }
+  }
+}
