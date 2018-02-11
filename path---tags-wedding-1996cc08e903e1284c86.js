@@ -1,0 +1,2 @@
+webpackJsonp([0x2e1c44bd802b7600],{"./node_modules/json-loader/index.js!./.cache/json/tags-wedding.json":function(e,d){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/wedding-reel"},excerpt:"",timeToRead:1,frontmatter:{title:"Wedding Reel",tags:["portfolio","wedding","reel"],cover:"https://i.vimeocdn.com/video/624710753_960x540.jpg?r=pad",date:"24/11/2017"}}}]}},pathContext:{tag:"wedding"}}}});
+//# sourceMappingURL=path---tags-wedding-1996cc08e903e1284c86.js.map
